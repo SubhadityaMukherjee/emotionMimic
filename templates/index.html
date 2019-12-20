@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Emotion Mimic</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <h1>Mimic Me</h1>
+    <img id ="web" src="{{ url_for('video_feed') }}">
+    <img id ="face" src="{{ url_for('disp') }}">
+
+  </body>
+</html>
